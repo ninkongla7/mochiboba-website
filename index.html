@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochi Boba Website</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">🧋🍡 Mochi Boba</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reviews" class="nav-link">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Mochi Boba</h2>
+                    <h3 class="subtitle">Make your day great with our special
+                        mochis and boba drinks!</h3>
+                    <p class="description">Welcome to our mochi boba paradise, where
+                        every flavor tells a story and every cup sparks joy.</p>
+
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="mochiboba.png" alt="Hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="about-image.png" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">At Mochi Boba House in Boulder, Colorado, we pride
+                        ourselves on being a go-to destination for mochi boba lovers and 
+                        conversation seekers alike. We're dedicated to providing an
+                        exceptional mochi boba experience in a cozy and inviting atmosphere,
+                        where guests can relax, unwind, and enjoy their time in comfort.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu section -->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="mochi.jpg" alt="Mochi" class="menu-iamge">
+                        <div class="menu-details">
+                            <h3 class="name">Mochis</h3>
+                            <p class="text">A wide range of fresh fruit mochi
+                            to brighten your mood.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="sugar-boba.jpg" alt="Boba Drinks" class="menu-iamge">
+                        <div class="menu-details">
+                            <h3 class="name">Boba Drinks</h3>
+                            <p class="text">Cool vibes only with creamy and frothy boba.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="fruit-boba.webp" alt="Refreshment" class="menu-iamge">
+                        <div class="menu-details">
+                            <h3 class="name">Refreshment</h3>
+                            <p class="text">Fruit and icy refreshing drink to make
+                            you feel refresh.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="specialcombo.jpg" alt="Special Combos" class="menu-iamge">
+                        <div class="menu-details">
+                            <h3 class="name">Special Combos</h3>
+                            <p class="text">Your favorite eating and drinking combinations.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="mochi-donut.webp" alt="Mochi Donuts" class="menu-iamge">
+                        <div class="menu-details">
+                            <h3 class="name">Mochi Donuts</h3>
+                            <p class="text">Satiate your palate and take you on a culinary treat.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="dessert.jpg" alt="Dessert" class="menu-iamge">
+                        <div class="menu-details">
+                            <h3 class="name">Dessert</h3>
+                            <p class="text">Quick bites to satisfy your small size hunger.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Reviews section -->
+        <section class="reviews-section" id="reviews">
+            <h2 class="section-title">Reviews</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="reviews-list swiper-wrapper">
+                            <li class="review swiper-slide">
+                                <img src="User1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Ollie Jones</h3>
+                                <i class="feedback">"Loved the brown sugar boba. Perfectly
+                                    balanced and rich. Will order again!"</i>
+                            </li> 
+                            <li class="review swiper-slide">
+                                <img src="User2.jpg" alt="User" class="user-image">
+                                <h3 class="name">James Wilson</h3>
+                                <i class="feedback">"Great mochi texture! Soft and chewy with
+                                    bold flavor. Fast shipping too!"</i>
+                            </li> 
+                            <li class="review swiper-slide">
+                                <img src="User3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Emma Harris</h3>
+                                <i class="feedback">"Excellent quality! Fresh boba and quick delivery.
+                                    Highly recommend."</i>
+                            </li> 
+                            <li class="review swiper-slide">
+                                <img src="User4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sienna Park</h3>
+                                <i class="feedback">"Best mochi donuts I've tried! So tastety!
+                                    Arrived promptly."</i>
+                            </li> 
+                            <li class="review swiper-slide">
+                                <img src="User5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Michael Anders</h3>
+                                <i class="feedback">"Fantastic refreshment. Fresh and 
+                                    aromatic. Quick shipping!"</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery section -->
+        <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="gallery-1.jpg" alt="Gallery" 
+                        class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-2.jpg" alt="Gallery" 
+                        class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-3.webp" alt="Gallery" 
+                        class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-4.jpg" alt="Gallery" 
+                        class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-5.avif" alt="Gallery" 
+                        class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="gallery-6.jpg" alt="Gallery" 
+                        class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>1213 Crestmoor Drive, Boulder, CO 80303</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>ruko3572@colorado.edu</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(720) 951-9234</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Friday: 7:00 AM - 3:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Saturday & Sunday: Closed</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.linkedin.com/in/nin-kongla/</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your name" class="form-input" required>
+                    <input type="email" placeholder="Your email" class="form-input" required>
+                    <textarea placeholder="Your message" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2025 Mochi Boba Shop</p>
+
+                <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands 
+                        fa-x-twitter"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">·</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom script -->
+    <script src="script.js"></script>
+</body>
+</html>
